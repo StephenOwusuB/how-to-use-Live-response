@@ -12,13 +12,16 @@ Live response is a great tool for security operations teams. It allows them to c
 ### Steps to Use Live Response
 1. Make sure Live Response is turned on and the user has the right permissions.
 2. Enable Live Response unsigned script execution if necessary (only digitally signed scripts can be run if this is off).
-
+![Enable Live response](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/live%20response/MDE%20onboard%2072.png)
 ### Connecting to a Device
 1. Go to **Assets and Devices**.
 2. Select the device you intend to use Live Response on.
 3. On the top right, select the three dots and click on **Live Response**.
 4. The session will be established, showing the session ID, creator, start time, and device info.
-
+   ![Connect live response](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/live%20response/MDE%20onboard%2073.png)
+   ![Connect live response](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/live%20response/MDE%20onboard%2074.png)
+    ![Connect live response](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/live%20response/MDE%20onboard%2075.png)
+   
 ### Basic Commands
 - Start a live response session: `Start-DefenderResponseSession`
 - Run a command in the background: `bg <command ID>`
@@ -35,6 +38,22 @@ Live response is a great tool for security operations teams. It allows them to c
 - View all services: `services`
 - View all known files in the startup folder: `startupfolders`
 - Enable debug mode: `trace`
+ ![Basic commands](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/live%20response/MDE%20onboard%2076.png)
+![Basic commands](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/live%20response/MDE%20onboard%2077.png)
+![Basic commands](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/live%20response/MDE%20onboard%2078.png)
+![Basic commands](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/live%20response/MDE%20onboard%2079.png)
+![Basic commands](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/live%20response/MDE%20onboard%2080.png)
+![Basic commands](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/live%20response/MDE%20onboard%2081.png)
+![Basic commands](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/live%20response/MDE%20onboard%2082.png)
+![Basic commands](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/live%20response/MDE%20onboard%2083.png)
+![Basic commands](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/live%20response/MDE%20onboard%2084.png)
+![Basic commands](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/live%20response/MDE%20onboard%2085.png)
+![Basic commands](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/live%20response/MDE%20onboard%2086.png)
+![Basic commands](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/live%20response/MDE%20onboard%2087.png)
+![Basic commands](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/live%20response/MDE%20onboard%2088.png)
+![Basic commands](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/live%20response/MDE%20onboard%2089.png)
+
+
 
 ### Advanced Commands
 - View files uploaded to the live response library: `library`
@@ -48,6 +67,12 @@ Live response is a great tool for security operations teams. It allows them to c
 - Upload files from the library: `putfile`
 - Remediate a file: `remediate file <file path>`
 - Undo remediation: `undo file <file path>`
+![Advanced comnands](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/live%20response/MDE%20onboard%2091.png)
+![Advanced comnands](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/live%20response/MDE%20onboard%2094.png)
+![Advanced comnands](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/live%20response/MDE%20onboard%2095.png)
+![Advanced comnands](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/live%20response/MDE%20onboard%2096.png)
+![Advanced comnands](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/live%20response/MDE%20onboard%2097.png)
+![Advanced comnands](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/live%20response/MDE%20onboard%2098.png)
 
 ### Managing Directories
 - Change directory: `cd <directory>`
@@ -59,7 +84,8 @@ Live response is a great tool for security operations teams. It allows them to c
 ### Session Management
 - Disconnect session: Click on **Disconnect Session** in the top bar.
 - Review commands during the live session: Select **Command Log**.
-
+![Advanced comnands](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/live%20response/MDE%20onboard%2092.png)
+![Advanced comnands](https://github.com/StephenOwusuB/Implementing-Microsoft-Defender-for-Enterprise-Security/blob/main/images/live%20response/MDE%20onboard%2093.png)
 ### Limitations
 - You can only use 25 live response sessions at a time.
 - The inactive time limit is 15 minutes.
